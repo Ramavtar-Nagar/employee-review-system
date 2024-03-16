@@ -4,6 +4,12 @@ const expressLayouts = require('express-ejs-layouts')
 
 const port = 3000;
 
+// Setting the views directory
+app.set('views', './views');
+
+// Setting the view engine
+app.set('view engine', 'ejs');
+
 // Things Used for cookieparser and sessions
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
