@@ -11,7 +11,6 @@ const session = require('express-session');
 const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
 
-app.use(express.static('./assets'));
 const db = require('./config/mongoose')
 
 
