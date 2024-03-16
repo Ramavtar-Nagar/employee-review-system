@@ -71,3 +71,8 @@ app.listen(port, function(err)
     }
     console.log(`Server is running on the port: ${port}`)
 })
+
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('Something went wrong!');
+});
