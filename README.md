@@ -31,7 +31,7 @@ This is a simple employee review system project built with Node.js and [Database
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your-username/polling-system-api.git](https://github.com/Ramavtar-Nagar/employee-review-system/tree/main)
+   git clone https://github.com/Ramavtar-Nagar/employee-review-system/tree/main
 
 2. Navigate to the project directory:
    
